@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jo Ken Po</title>
+  </head>
+  <body>
+
+      <div class="results">
+        <p id="win">Vitórias: 0</p>
+        <p id="draw">Empates: 0</p>
+        <p id="lose">Derrotas: 0</p>
+      </div>
+
+      <div class="game">
+      
+       <div class="player">
+          <h1>Player</h1>
+          <button><img id="pedra" src="pedra.png" alt="imagem-pedra"></button>
+          <button><img id="papel" src="papel.png" alt="imagem-papel"></button>
+          <button><img id="tesoura" src="tesoura.png" alt="imagem-tesoura"></button>
+        </div>
+
+        <div class="result">
+          <h3 id="final-result">Resultado</h3>
+          <img id="img-final-choice" src="interrogacao.png" alt="imagem-interrogacao">
+          <p id="text">Selecione sua jogada!</p>
+        </div>
+
+        <div class="computer">
+          <h1 id="pc-choice">Computador</h1>
+          <img id="img-pc-choice" src="interrogacao.png" alt="imagem-interrogacao">
+        </div>
+
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
